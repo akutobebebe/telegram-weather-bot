@@ -4,7 +4,7 @@ from aiogram.types import InlineKeyboardMarkup
 def get_start_keyboard()-> InlineKeyboardMarkup:
     builder = InlineKeyboardBuilder()
     builder.button(
-        text="Погода в місті",
+        text="🌤️ Дізнатися погоду",
         callback_data="get_weather_button"
     )
 
